@@ -18,18 +18,21 @@ importers:
         specifier: ^16.11.0
         version: 16.11.0
       next:
-        specifier: 15.3.5
+        specifier: ^15.3.5
         version: 15.3.5(@babel/core@7.28.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0
       react-dom:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
       '@graphql-codegen/cli':
         specifier: ^5.0.7
         version: 5.0.7(@types/node@20.19.4)(graphql@16.11.0)(typescript@5.8.3)
+      '@graphql-codegen/client-preset':
+        specifier: ^4.8.3
+        version: 4.8.3(graphql@16.11.0)
       '@graphql-codegen/typescript':
         specifier: ^4.1.6
         version: 4.1.6(graphql@16.11.0)

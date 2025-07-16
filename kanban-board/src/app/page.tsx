@@ -1,10 +1,10 @@
 'use client'
 
 import Image from "next/image";
-import Counter from "../components/Counter";
+import Counter from "./components/Counter";
 import { useEffect, useState } from "react";
 import { NhostProvider } from "@nhost/nextjs";
-import { nhost } from '../lib/nhost'
+import { nhost } from './lib/nhost'
 
 export default function Home() {
 	const getMovies = `
